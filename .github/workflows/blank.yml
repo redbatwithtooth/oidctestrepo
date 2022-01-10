@@ -6,8 +6,8 @@ permissions:
       contents: read
       
 jobs: 
-  Windows-latest:
-      runs-on: linux-latest
+  ubuntu-latest:
+      runs-on: ubuntu-latest
       env:
             ARM_CLIENT_ID: 048da38b-f8a9-4a71-ab7e-964c9aa37b97
             # ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
